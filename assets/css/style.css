@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+html { scroll-behavior: smooth; }
+
 #services .card {
   transition: transform 0.3s;
 }
@@ -5,3 +8,39 @@
 #services .card:hover {
   transform: scale(1.05);
 }
+
+/* gallery dari sini */
+.grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 50px;
+}
+.grid > .item1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.grid > .item2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.grid > .item3 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.grid > .item4 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.grid > .item5 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.grid > .item6 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.grid > .item7 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+/* gallery sampai sini */
