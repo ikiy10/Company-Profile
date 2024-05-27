@@ -1,6 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 html { scroll-behavior: smooth; }
+/* Variables */
+:root {
+  --primary-color: #007bff; /* Warna utama (misalnya biru) */
+  --secondary-color: #F3F0E5; /* Warna sekunder (misalnya abu-abu) */
+  --background-color:  #D9D9D9; /* Warna latar belakang */
+  --text-color: #212529; /* Warna teks utama */
+}
 
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif; /* Ganti font sesuai kebutuhan */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Responsive styles */
+@media (min-width: 576px) {
+  .container {
+      max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+
+/* Service */
+#servise{
+  background-color: var(--primary-color);
+}
 #services .card {
   transition: transform 0.3s;
 }
