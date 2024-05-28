@@ -18,6 +18,25 @@ body {
   line-height: 1.6;
 }
 
+/* about */
+.custom-header {
+  background-color: white;
+  color: black;
+}
+
+.header-section .container {
+  padding: 20px; /* Menambahkan padding */
+}
+
+.carousel-inner .panda-bg-info {
+  background-color: #f8f9fa; /* Warna abu-abu muda */
+}
+
+.typed-cursor {
+  display: none; /* Menghilangkan kursor kedip-kedip */
+}
+
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -63,6 +82,7 @@ body {
   transform: scale(1.05);
 }
 
+<<<<<<< Updated upstream
 /* gallery dari sini */
 .grid {
   display: grid;
@@ -98,3 +118,5 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 /* gallery sampai sini */
+=======
+>>>>>>> Stashed changes
